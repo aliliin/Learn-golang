@@ -12,7 +12,12 @@
 ## 配置
 
 2.  配置环境变量
-
+    ### 通用方法 执行以下代码
+     ```
+    export GOROOT=/usr/local/go
+    export GOPATH=youpath(以后放置项目的路径可以自己新建)
+    export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+    ```
     ### Bash 
 
     <hr> 
