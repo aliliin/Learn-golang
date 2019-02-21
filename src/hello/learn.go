@@ -1,9 +1,10 @@
 // 程序所属包 必须所在第一行
-package main
+package hello
 // 导入依赖包 可以导入多个包
+// 注意不能导入 未使用的 package 包
 import (
 	"fmt"
-	)
+)
 // 定义常量 及 赋值 string 是类型
 const NAME string = "Gao"
 // 全局变量定义 及 赋值 全局变量关键字 var
@@ -22,10 +23,8 @@ type ILearnToday interface{
 func LearnFunction(){
 	fmt.Println("Today Learn Golang! ")
 }
-// main 函数 相当于入口
-func main() {
-	learn
+// 初始化 函数 相当于这个文件的入口
+func init() {
 	LearnFunction()
- 	fmt.Println("Learn Golang!")
+	fmt.Println("Learn Golang!")
 }
-
