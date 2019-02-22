@@ -11,6 +11,16 @@ Go 语言中保留的25个关键字如下表
 |const|fallthrough|if|range|type|
 |continue|for|import|return|var|
 
+Go 语言 36 个预定义标识符
+
+|append|bool|byte|cap|close|complex|complex64|complex128|uint16|
+|---|---|---|---|---|---|---|---|---|
+|copy|false|float32|float64|imag|int|int8|int16|uint32|
+|int32| int64|iota|len|make|new|nil|panic|uint64|
+|print| println|real|recover|string|true|uint|uint8|uintptr|
+
+
+
 #### Package 包
 * ` package` 是最基本的分发单位和工程管理中依赖关系的体现 
 *  每个Go语言源代码文件开头都拥有一个`package`声明，表示源码文件所属代码包
