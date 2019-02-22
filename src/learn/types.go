@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"unsafe"
 )
-
 // 初始化 数据类型学习方法
 func init() {
 	// 	无符号整型
@@ -59,7 +58,7 @@ func init() {
 
 }
 
-// 调用本包的方法
+// 调用本包的方法 实现初始化init 方法
 func LearnTypes(){
 
 }
