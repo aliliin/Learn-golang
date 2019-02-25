@@ -10,6 +10,8 @@ import (
 )
 
 func main() {
+	// 常量声明 iota
+	learn.LearnIota()
 	// 变量声明学习
 	fmt.Print(learn.Cat) // 可以调用别的包中的大写字母的变量
 	learn.LearnVariable()
