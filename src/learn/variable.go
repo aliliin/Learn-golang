@@ -14,6 +14,7 @@ var (
 	c string = "分组声明赋值"
 	d int    = 2345
 )
+var block = "package" // 函数主体中对此变量做出来相应的修改。
 //x,v := 9,8    只能用在函数体内
 func init() {
 }
@@ -35,7 +36,12 @@ func LearnVariable() {
 	//c := float32(a) 	// 类型转换
 	c := int32(b) // 精度转换会丢失小数点后面的数值
 	//var d bool = true 不兼容的类型是无法转换的，
-
+	block := "function"
+	{
+		block := "inner"
+		fmt.Printf("The block is %s.\n", block) // 输出 inner
+	}
+	fmt.Printf("The block is %s.\n", block) // 输出 function
 	fmt.Print(a)
 	fmt.Print(b)
 	fmt.Print(c)
