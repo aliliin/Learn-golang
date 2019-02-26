@@ -10,6 +10,10 @@ import (
 )
 
 func main() {
+	learn.LearnBitwise() // 位运算符
+	//learn.LearnOpearatorLogical() // 逻辑运算符
+	//learn.LearnOpearatorRelation() // 关系运算符
+	//learn.LearnOperatorArithmetic() // 算术运算符
 	// 常量声明 iota
 	learn.LearnIota()
 	// 变量声明学习
