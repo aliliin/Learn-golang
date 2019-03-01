@@ -35,6 +35,7 @@ func LearnGoto(){
 	fmt.Printf("a的值为 : %d\n", a)
 	a++
 }
+
 }
 
 
@@ -90,6 +91,20 @@ func LearnSwitch(){
 	}
 
 
+	var grade string = "D"
+	switch {
+	case grade == "A" :
+		fmt.Printf("优秀!\n" )
+	case grade == "B", grade == "C" :
+		fmt.Printf("良好\n" )
+	case grade == "D" :
+		fmt.Printf("及格\n" )
+	case grade == "F":
+		fmt.Printf("不及格\n" )
+	default:
+		fmt.Printf("差\n" );
+	}
+	fmt.Printf("你的成绩是 %s\n", grade );
 
 
 	switch 4 {
@@ -116,5 +131,33 @@ func LearnIf(){
 		}
 	}else{
 		fmt.Print("a小于b \n")
+	}
+
+	a := 100
+	b := 10
+	if a > b {
+		fmt.Print("a大于等于b \n")
+		if a > 20{
+			fmt.Print("a大于于20 \n")
+		}
+	}else{
+		fmt.Print("a小于b \n")
+	}
+
+	if a == 1 {
+		fmt.Print(a)
+	}
+	if a == 2 {
+		fmt.Print("等于2")
+	}else{
+		fmt.Print("不等于2")
+	}
+	age := 28
+	if age == 26{
+		fmt.Print("age是26")
+	}else if age < 27{
+		fmt.Print("age是27")
+	}else {
+		fmt.Print("age大于27") // age大于27
 	}
 }
