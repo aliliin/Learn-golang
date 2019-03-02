@@ -4,6 +4,9 @@ import "fmt"
 
 // Go语言函数练习
 func init() {
+
+}
+func functionCall(){
 	// 函数调用 已知 TwoSum 函数需要两个参数
 	num1 := 20
 	num2 := 30
@@ -11,7 +14,6 @@ func init() {
 	res = TwoSum(num1,num2)
 	fmt.Print("两数之和是：",res)
 }
-
 // 函数基本定义格式
 //func function_name([parameter list ]) return_types{
 	// 函数体

@@ -38,11 +38,6 @@ func LearnGoto(){
 
 }
 
-
-
-
-
-
 // for init; condition; post { }
 // init： 一般为赋值表达式，给控制变量赋初值；
 // condition： 关系表达式或逻辑表达式，循环控制条件；
@@ -68,16 +63,12 @@ func LearnFor(){
 		fmt.Print(value)
 	}
 }
-
-
-
-
 // switch 语句用于基于不同条件执行不同动作，每一个case 分支都是唯一的，从上往下逐一测试，知道匹配位置
 // switch 语句执行的过程从上到下
 // switch 语句还可以被用于 type-switch 来判断某个 interface 变量中实际存储的变量类型
 func LearnSwitch(){
-	var a interface{}
 
+	var a interface{}
 	a = 32
 	a = "Aliliin"
 	a = 3.143
@@ -118,9 +109,6 @@ func LearnSwitch(){
 		fmt.Print("以上都不满足")
 	}
 }
-
-
-
 func LearnIf(){
 	a := 100
 	b := 10
@@ -132,22 +120,8 @@ func LearnIf(){
 	}else{
 		fmt.Print("a小于b \n")
 	}
-
-	a := 100
-	b := 10
-	if a > b {
-		fmt.Print("a大于等于b \n")
-		if a > 20{
-			fmt.Print("a大于于20 \n")
-		}
-	}else{
-		fmt.Print("a小于b \n")
-	}
-
-	if a == 1 {
-		fmt.Print(a)
-	}
-	if a == 2 {
+	d := 1
+	if d == 2 {
 		fmt.Print("等于2")
 	}else{
 		fmt.Print("不等于2")
