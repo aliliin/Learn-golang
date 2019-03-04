@@ -10,13 +10,15 @@ const ( // 每新增一行常量声明 iota 就会自动加一
 	iotac = iota
 	iotad = iota
 )
+
 // 跳值使用法
 const (
 	iotae = iota // 0
-	_ // 通过下划线来达到 跳值使用法  会把1 赋值给下划线1
-	_ // 2
+	_            // 通过下划线来达到 跳值使用法  会把1 赋值给下划线1
+	_            // 2
 	iotaf = iota // 3
 )
+
 // 插队使用
 const (
 	iotag = iota // 0
@@ -26,26 +28,26 @@ const (
 
 // 单行使用法
 const (
-	iotay,iotau = iota,iota+3 // 0 , 3
-	iotao,iotas // 1,4 iotao 沿用第一个也就是 iotay的，而 iotas 沿用的是iotau的
-	ff = iota // 2
+	iotay, iotau = iota, iota + 3 // 0 , 3
+	iotao, iotas                  // 1,4 iotao 沿用第一个也就是 iotay的，而 iotas 沿用的是iotau的
+	ff           = iota           // 2
 
 )
 
 // 有趣的现象
 const (
-	iotaq = iota * 2 // 0
-	iotaw // 如果不赋值默认依次继承 ，就成了  2
-	iotar  //  4
-	iotaps // 6
-	iotap // 8
+	iotaq  = iota * 2 // 0
+	iotaw             // 如果不赋值默认依次继承 ，就成了  2
+	iotar             //  4
+	iotaps            // 6
+	iotap             // 8
 )
 
 func init() {
-	
+
 }
 
-func LearnIota(){
+func LearnIota() {
 	fmt.Print(iotaa)
 	fmt.Print("\n")
 	fmt.Print(iotab)

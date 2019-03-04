@@ -1,9 +1,13 @@
 package main
 
-import "learn"
+import "fmt"
+
+// import "learn"
 
 func main() {
-	learn.functionCall()
+
+	fmt.Print("hello world")
+	// learn.functionCall()
 
 	//learn.LearnSwitch()
 	//learn.LearnBitwise() // 位运算符
@@ -22,4 +26,3 @@ func main() {
 	// mymath.Sqrt("Sqrt 字符串")
 	// echo.Println("测试成功")
 }
-

@@ -1,13 +1,13 @@
 package hello
 
 import (
-    "fmt"
-    "mymath"
+	"fmt"
+	"mymath"
 )
- 
-func init(){
-    fmt.Printf("Hello World!\n")
+
+func init() {
+	fmt.Printf("Hello World!\n")
 }
-func Hello(){
-    mymath.Sqrt("测试导入重复的包")
+func Hello() {
+	mymath.Sqrt("测试导入重复的包")
 }

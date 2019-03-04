@@ -6,17 +6,18 @@ import "fmt"
 func init() {
 
 }
-func functionCall(){
+func functionCall() {
 	// 函数调用 已知 TwoSum 函数需要两个参数
 	num1 := 20
 	num2 := 30
 	var res int
-	res = TwoSum(num1,num2)
-	fmt.Print("两数之和是：",res)
+	res = TwoSum(num1, num2)
+	fmt.Print("两数之和是：", res)
 }
+
 // 函数基本定义格式
 //func function_name([parameter list ]) return_types{
-	// 函数体
+// 函数体
 //}
 
 // func：函数由 func 开始声明
@@ -27,7 +28,7 @@ func functionCall(){
 // 函数体。函数定义的代码集合
 
 // 计算两数之和
-func TwoSum(num1,num2 int) int{
+func TwoSum(num1, num2 int) int {
 	// 声明局部 结果变量
 	var res int
 	res = num1 + num2
