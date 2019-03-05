@@ -34,7 +34,6 @@ func TestSting(t *testing.T) {
 		t.Log("*" + s + "*")
 	}
 }
-
 func TestSliceInit(t *testing.T) {
 	s2 := make([]int, 3, 5)
 	t.Log(len(s2), cap(s2))
