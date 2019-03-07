@@ -35,3 +35,18 @@ func TestConstantTry1(t *testing.T) {
 	a = a &^ Executable
 	t.Log(a&Readable == Readable, a&Writable == Writable, a&Executable == Executable)
 }
+
+// 循环 go 只支持 for 循环并且没用（）
+//
+/*
+while 条件循环的写法
+	n:=0
+	for n<5{
+		n++
+		fmt.Println(n)
+	}
+	无限循环的写法
+	for {
+		....
+	}
+*/
