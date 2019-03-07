@@ -41,6 +41,19 @@ func TestIfMultiSec(t *testing.T) {
 	if a := 1 == 1; a {
 		t.Log("1==1")
 	}
+
+	// 多个if的写法
+	i := 4
+	if i == 1 {
+		t.Log(i, 1)
+	} else if i == 2 {
+		t.Log(i, 2)
+	} else if i == 3 {
+		t.Log(i, 3)
+	} else {
+		t.Log("随意输出")
+	}
+
 	// 调用方法的返回值
 	// if v, err := someFunc(); err == nil {
 	// 	t.Log("dd")
