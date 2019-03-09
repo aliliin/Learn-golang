@@ -48,11 +48,11 @@ func TestSliceShareMemory(t *testing.T) {
 
 }
 func TestSliceCompare(t *testing.T) {
-	a := []int{1, 3, 4}
-	b := []int{1, 2, 3}
-	c := []int{}
+	// a := []int{1, 3, 4}
+	// b := []int{1, 2, 3}
+	// c := []int{}
 	// 不能进行比较
-	if a == b {
-		t.Log(a, b)
-	}
+	// if a == b {
+	// 	t.Log(a, b)
+	// }
 }
