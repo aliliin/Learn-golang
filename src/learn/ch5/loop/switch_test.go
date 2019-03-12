@@ -6,7 +6,7 @@ import "testing"
 func TestSwitch(t *testing.T) {
 	integer := 6
 	switch integer {
-	case 4:
+	case 4: 
 		t.Log("The integer was <=4")
 		fallthrough
 	case 5:
