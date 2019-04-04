@@ -8,7 +8,7 @@ import (
 
 func TestObjPool(t *testing.T) {
 	pool := NewObjPool(10)
-	// 放入对象测试 报错
+	// 放入对象测试 报错 overflow
 	if err := pool.ReleaseObj(&ReusableObj{}); err != nil {
 		t.Error(err)
 	}
