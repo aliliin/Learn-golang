@@ -33,10 +33,11 @@ func CheckType(v interface{}) {
 	}
 }
 
+// 切片和map 的比较
 func TestDeepEqual(t *testing.T) {
 	a := map[int]string{1: "one", 2: "two", 3: "three"}
 	b := map[int]string{1: "one", 2: "two", 3: "three"}
-	//	t.Log(a == b)
+	// t.Log(a == b) 不能直接比较
 	t.Log("a==b?", reflect.DeepEqual(a, b))
 
 	s1 := []int{1, 2, 3}
