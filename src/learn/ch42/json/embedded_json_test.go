@@ -6,6 +6,7 @@ import (
 	"testing"
 )
 
+//   利用反射实现，通过 FelidTag 来标识对应的 json 值
 var jsonStr = `{
 	"basic_info":{
 		"name":"Mike",
