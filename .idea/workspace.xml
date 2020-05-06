@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e88504-3b61-4780-9cbc-7e1cafc69d4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Learn1/lengthOfLongestSubstring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/queue/entry/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/tree/entry/entry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/tree/node.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/tree/traverse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Learn1/strings.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +31,13 @@
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1bW2YNsF3RTTl4ATtOAP8iWbAAF" />
   <component name="ProjectLevelVcsManager">
@@ -53,22 +65,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Go Build.go build lengthOfLongestSubstring.go">
-    <configuration name="go build learn1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Learn1/OOP/tree/entry" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build entry.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Learn-golang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/learn1/learn1.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build learn.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Learn-golang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/learn.go" />
+      <filePath value="$PROJECT_DIR$/src/Learn1/OOP/tree/entry/entry.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -84,25 +93,33 @@
       <module name="Learn-golang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/main.go" />
+      <filePath value="$PROJECT_DIR$/src/Learn1/OOP/queue/entry/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build node.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Learn-golang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/Learn1/maps.go" />
+      <filePath value="$PROJECT_DIR$/src/Learn1/OOP/tree/node.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Learn-golang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/Learn1/strings.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build lengthOfLongestSubstring.go" />
-        <item itemvalue="Go Build.go build maps.go" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build learn1.go" />
-        <item itemvalue="Go Build.go build learn.go" />
+        <item itemvalue="Go Build.go build entry.go" />
+        <item itemvalue="Go Build.go build strings.go" />
+        <item itemvalue="Go Build.go build node.go" />
+        <item itemvalue="Go Build.go build lengthOfLongestSubstring.go" />
       </list>
     </recent_temporary>
   </component>
@@ -127,31 +144,35 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="887" y="199" key="CommitChangelistDialog2/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588735969862" />
-    <state width="2518" height="285" key="GridCell.Tab.0.bottom" timestamp="1588737772161">
+    <state width="2518" height="285" key="GridCell.Tab.0.bottom" timestamp="1588752197556">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.bottom/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588737772161" />
+    <state width="2518" height="285" key="GridCell.Tab.0.bottom/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752197556" />
     <state width="1878" height="285" key="GridCell.Tab.0.bottom/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151008" />
-    <state width="2518" height="285" key="GridCell.Tab.0.center" timestamp="1588737772159">
+    <state width="2518" height="285" key="GridCell.Tab.0.center" timestamp="1588752197554">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.center/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588737772159" />
+    <state width="2518" height="285" key="GridCell.Tab.0.center/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752197554" />
     <state width="1878" height="285" key="GridCell.Tab.0.center/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151007" />
-    <state width="2518" height="285" key="GridCell.Tab.0.left" timestamp="1588737772158">
+    <state width="2518" height="285" key="GridCell.Tab.0.left" timestamp="1588752197552">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.left/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588737772158" />
+    <state width="2518" height="285" key="GridCell.Tab.0.left/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752197552" />
     <state width="1878" height="285" key="GridCell.Tab.0.left/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151007" />
-    <state width="2518" height="285" key="GridCell.Tab.0.right" timestamp="1588737772160">
+    <state width="2518" height="285" key="GridCell.Tab.0.right" timestamp="1588752197554">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.right/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588737772160" />
+    <state width="2518" height="285" key="GridCell.Tab.0.right/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752197554" />
     <state width="1878" height="285" key="GridCell.Tab.0.right/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151007" />
-    <state x="600" y="318" key="SettingsEditor" timestamp="1588735963019">
+    <state x="457" y="339" key="SettingsEditor" timestamp="1588752683161">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="600" y="318" key="SettingsEditor/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588735963019" />
+    <state x="457" y="339" key="SettingsEditor/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752683161" />
     <state x="600" y="324" key="SettingsEditor/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734098800" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1588751184291">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588751184291" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
