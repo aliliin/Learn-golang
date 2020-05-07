@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e88504-3b61-4780-9cbc-7e1cafc69d4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/queue/entry/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/queue/queue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/tree/entry/entry.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/tree/node.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn1/OOP/tree/traverse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn1/strings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bW2YNsF3RTTl4ATtOAP8iWbAAF" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -49,6 +44,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -69,10 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/go-crawler" />
       <recent name="$PROJECT_DIR$/src/Learn1/OOP/tree/entry" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build go-crawler">
     <configuration name="go build entry.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Learn-golang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -81,11 +79,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lengthOfLongestSubstring.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-crawler" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Learn-golang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/go-crawler/main.go" />
+      <package value="go-crawler" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Learn-golang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/Learn1/lengthOfLongestSubstring.go" />
+      <filePath value="$PROJECT_DIR$/src/go-crawler/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -94,14 +101,6 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/Learn1/OOP/queue/entry/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build node.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Learn-golang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/Learn1/OOP/tree/node.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-crawler" />
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build entry.go" />
         <item itemvalue="Go Build.go build strings.go" />
-        <item itemvalue="Go Build.go build node.go" />
-        <item itemvalue="Go Build.go build lengthOfLongestSubstring.go" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +135,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1029" y="520" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588755144249">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1029" y="520" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588755144249" />
     <state x="811" y="374" key="#go_build_maps.go" timestamp="1588734143938">
       <screen x="0" y="23" width="2560" height="1362" />
     </state>
@@ -144,30 +147,30 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="887" y="199" key="CommitChangelistDialog2/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588735969862" />
-    <state width="2518" height="285" key="GridCell.Tab.0.bottom" timestamp="1588752197556">
+    <state width="2518" height="285" key="GridCell.Tab.0.bottom" timestamp="1588850895467">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.bottom/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752197556" />
+    <state width="2518" height="285" key="GridCell.Tab.0.bottom/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588850895467" />
     <state width="1878" height="285" key="GridCell.Tab.0.bottom/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151008" />
-    <state width="2518" height="285" key="GridCell.Tab.0.center" timestamp="1588752197554">
+    <state width="2518" height="285" key="GridCell.Tab.0.center" timestamp="1588850895466">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.center/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752197554" />
+    <state width="2518" height="285" key="GridCell.Tab.0.center/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588850895466" />
     <state width="1878" height="285" key="GridCell.Tab.0.center/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151007" />
-    <state width="2518" height="285" key="GridCell.Tab.0.left" timestamp="1588752197552">
+    <state width="2518" height="285" key="GridCell.Tab.0.left" timestamp="1588850895465">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.left/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752197552" />
+    <state width="2518" height="285" key="GridCell.Tab.0.left/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588850895465" />
     <state width="1878" height="285" key="GridCell.Tab.0.left/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151007" />
-    <state width="2518" height="285" key="GridCell.Tab.0.right" timestamp="1588752197554">
+    <state width="2518" height="285" key="GridCell.Tab.0.right" timestamp="1588850895467">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.right/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752197554" />
+    <state width="2518" height="285" key="GridCell.Tab.0.right/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588850895467" />
     <state width="1878" height="285" key="GridCell.Tab.0.right/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151007" />
-    <state x="457" y="339" key="SettingsEditor" timestamp="1588752683161">
+    <state x="457" y="339" key="SettingsEditor" timestamp="1588850621256">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="457" y="339" key="SettingsEditor/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588752683161" />
+    <state x="457" y="339" key="SettingsEditor/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588850621256" />
     <state x="600" y="324" key="SettingsEditor/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734098800" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1588751184291">
       <screen x="0" y="0" width="2560" height="1440" />
