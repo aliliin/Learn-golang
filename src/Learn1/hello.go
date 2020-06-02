@@ -91,6 +91,19 @@ func enums() {
 	fmt.Println(cpp, java, python, golang, php)
 	fmt.Println(b, kb, mb, gb, tb, pb)
 }
+
+func isUnique(astr string) bool {
+	result := true
+	m := []rune(astr)
+	for k, v := range m {
+		for key, value := range m {
+			if v == value && k != key {
+				result = false
+			}
+		}
+	}
+	return result
+}
 func main() {
 	fmt.Println("hello world")
 	variableZeroValue()
@@ -102,4 +115,5 @@ func main() {
 	triangle()
 	consts()
 	enums()
+	isUnique("leetcode")
 }
