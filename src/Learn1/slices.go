@@ -35,4 +35,7 @@ func main() {
 	fmt.Printf("s2=%v,len(s2)=%d,cap(s2)=%d\n", s2, len(s2), cap(s2))
 	fmt.Println(s1[3:7])
 
+	s3 := append(s2, 10)
+	fmt.Println(s3)
+
 }

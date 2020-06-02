@@ -104,6 +104,24 @@ func isUnique(astr string) bool {
 	}
 	return result
 }
+func isUniques(astr string) bool {
+	// leetcode
+	strLen := len(astr)
+	if strLen <= 1 {
+		return result
+	}
+	for i := 0; i < strLen; i++ {
+		for j := i + 1; j < strLen; j++ {
+			if i != j && astr[i] == astr[j] {
+				return false
+			}
+		}
+	}
+	return true
+	//fmt.Println("astr[:1] = ", astr[start:end])
+
+	//return result
+}
 func main() {
 	fmt.Println("hello world")
 	variableZeroValue()
@@ -116,4 +134,5 @@ func main() {
 	consts()
 	enums()
 	isUnique("leetcode")
+	isUniques("leetcode")
 }
