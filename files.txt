@@ -1,9 +1,1 @@
-ABCDEabcdabcdgolangabcdgolanggolangabcd
-golang
-golangabcd
-golang
-golangabcd
-golang
-golangabcd
-golang
-golang
+你好 hello world 

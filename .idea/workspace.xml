@@ -16,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -46,7 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,30 +75,13 @@
       <recent name="$PROJECT_DIR$/src/Learn1/OOP/tree/entry" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build l_package (3)">
-    <configuration name="go build fileinfodemo1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build Learn1">
+    <configuration name="go build Learn1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Learn-golang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/l_package/fileinfodemo1.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build l_package (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Learn-golang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/l_package/timedemo.go" />
-      <package value="l_package" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build l_package (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Learn-golang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/l_package/fileinfodemo2.go" />
-      <package value="l_package" />
+      <filePath value="$PROJECT_DIR$/src/Learn1/closure.go" />
+      <package value="Learn1" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -105,26 +89,49 @@
       <module name="Learn-golang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/l_package/fileinfodemo3.go" />
+      <filePath value="$PROJECT_DIR$/src/l_package/select1.go" />
       <package value="l_package" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build l_package" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Learn-golang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/l_package/strings.go" />
+      <filePath value="$PROJECT_DIR$/src/l_package/reflect.go" />
+      <package value="l_package" />
       <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDeepEqual in learn/ch37/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Learn-golang" />
+      <working_directory value="$PROJECT_DIR$/src/learn/ch37/reflect" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn/ch37/reflect" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestDeepEqual$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestInvokeByName in learn/ch37/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Learn-golang" />
+      <working_directory value="$PROJECT_DIR$/src/learn/ch37/reflect" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn/ch37/reflect" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestInvokeByName$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Learn1" />
+        <item itemvalue="Go Test.TestDeepEqual in learn/ch37/reflect" />
+        <item itemvalue="Go Build.go build l_package" />
+        <item itemvalue="Go Test.TestInvokeByName in learn/ch37/reflect" />
         <item itemvalue="Go Build.go build l_package (3)" />
-        <item itemvalue="Go Build.go build fileinfodemo1.go" />
-        <item itemvalue="Go Build.go build strings.go" />
-        <item itemvalue="Go Build.go build l_package (1)" />
-        <item itemvalue="Go Build.go build l_package (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,9 +158,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1029" y="520" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588755144249" />
-    <state x="2861" y="651" key="#go_build_Learn1" timestamp="1591084103473">
-      <screen x="2560" y="62" width="1200" height="1897" />
+    <state x="2861" y="635" key="#go_build_Learn1" timestamp="1592898880766">
+      <screen x="2560" y="39" width="1200" height="1920" />
     </state>
+    <state x="2861" y="635" key="#go_build_Learn1/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1592898880766" />
     <state x="2861" y="651" key="#go_build_Learn1/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591084103473" />
     <state x="2861" y="651" key="#go_build_Learn1_(1)" timestamp="1591091741975">
       <screen x="2560" y="62" width="1200" height="1897" />
@@ -167,22 +175,32 @@
       <screen x="2560" y="62" width="1200" height="1897" />
     </state>
     <state x="2861" y="651" key="#go_build_Learn1_(3)/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591152725701" />
-    <state x="2861" y="623" key="#go_build_l_package" timestamp="1591252493457">
-      <screen x="2560" y="62" width="1200" height="1897" />
+    <state x="2861" y="607" key="#go_build_l_package" timestamp="1592381584462">
+      <screen x="2560" y="39" width="1200" height="1920" />
     </state>
+    <state x="2861" y="607" key="#go_build_l_package/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1592381584462" />
+    <state x="2861" y="607" key="#go_build_l_package/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591776181513" />
     <state x="2861" y="623" key="#go_build_l_package/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591252493457" />
-    <state x="2861" y="623" key="#go_build_l_package_(1)" timestamp="1591252517206">
-      <screen x="2560" y="62" width="1200" height="1897" />
+    <state x="2861" y="607" key="#go_build_l_package_(1)" timestamp="1592361750362">
+      <screen x="2560" y="39" width="1200" height="1920" />
     </state>
-    <state x="2861" y="623" key="#go_build_l_package_(1)/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591252517206" />
-    <state x="2861" y="623" key="#go_build_l_package_(2)" timestamp="1591256270688">
-      <screen x="2560" y="62" width="1200" height="1897" />
+    <state x="2861" y="607" key="#go_build_l_package_(1)/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1592361750362" />
+    <state x="2861" y="623" key="#go_build_l_package_(1)/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591667538720" />
+    <state x="2861" y="607" key="#go_build_l_package_(2)" timestamp="1592377340833">
+      <screen x="2560" y="39" width="1200" height="1920" />
     </state>
-    <state x="2861" y="623" key="#go_build_l_package_(2)/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591256270688" />
-    <state x="2861" y="651" key="#go_build_l_package_(3)" timestamp="1591337170706">
-      <screen x="2560" y="62" width="1200" height="1897" />
+    <state x="2861" y="607" key="#go_build_l_package_(2)/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1592377340833" />
+    <state x="2861" y="623" key="#go_build_l_package_(2)/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591596293467" />
+    <state x="2861" y="635" key="#go_build_l_package_(3)" timestamp="1592378205364">
+      <screen x="2560" y="39" width="1200" height="1920" />
     </state>
+    <state x="2861" y="635" key="#go_build_l_package_(3)/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1592378205364" />
+    <state x="2861" y="634" key="#go_build_l_package_(3)/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591773732363" />
     <state x="2861" y="651" key="#go_build_l_package_(3)/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591337170706" />
+    <state x="2861" y="623" key="#go_build_l_package_(4)" timestamp="1591771823214">
+      <screen x="2560" y="62" width="1200" height="1842" />
+    </state>
+    <state x="2861" y="623" key="#go_build_l_package_(4)/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591771823214" />
     <state x="811" y="374" key="#go_build_maps.go" timestamp="1588734143938">
       <screen x="0" y="23" width="2560" height="1362" />
     </state>
@@ -191,34 +209,62 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="887" y="199" key="CommitChangelistDialog2/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588735969862" />
-    <state width="1158" height="360" key="GridCell.Tab.0.bottom" timestamp="1591354148786">
-      <screen x="2560" y="62" width="1200" height="1897" />
+    <state width="1158" height="497" key="GridCell.Tab.0.bottom" timestamp="1592899789625">
+      <screen x="2560" y="39" width="1200" height="1920" />
     </state>
     <state width="2518" height="285" key="GridCell.Tab.0.bottom/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588850895467" />
     <state width="1878" height="285" key="GridCell.Tab.0.bottom/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151008" />
-    <state width="1158" height="349" key="GridCell.Tab.0.bottom/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591262592471" />
-    <state width="1158" height="360" key="GridCell.Tab.0.bottom/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591354148786" />
-    <state width="1158" height="360" key="GridCell.Tab.0.center" timestamp="1591354148785">
-      <screen x="2560" y="62" width="1200" height="1897" />
+    <state width="1158" height="497" key="GridCell.Tab.0.bottom/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1592899789625" />
+    <state width="1158" height="497" key="GridCell.Tab.0.bottom/2560.39.1200.1920/0.23.2560.1362/-1680.23.1680.1027@2560.39.1200.1920" timestamp="1591963557141" />
+    <state width="1158" height="348" key="GridCell.Tab.0.bottom/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591781038246" />
+    <state width="1158" height="348" key="GridCell.Tab.0.bottom/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591681898575" />
+    <state width="1158" height="348" key="GridCell.Tab.0.bottom/2560.62.1200.1897/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591785441459" />
+    <state width="1158" height="497" key="GridCell.Tab.0.center" timestamp="1592899789622">
+      <screen x="2560" y="39" width="1200" height="1920" />
     </state>
     <state width="2518" height="285" key="GridCell.Tab.0.center/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588850895466" />
     <state width="1878" height="285" key="GridCell.Tab.0.center/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151007" />
-    <state width="1158" height="349" key="GridCell.Tab.0.center/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591262592471" />
-    <state width="1158" height="360" key="GridCell.Tab.0.center/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591354148785" />
-    <state width="1158" height="360" key="GridCell.Tab.0.left" timestamp="1591354148785">
-      <screen x="2560" y="62" width="1200" height="1897" />
+    <state width="1158" height="497" key="GridCell.Tab.0.center/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1592899789622" />
+    <state width="1158" height="497" key="GridCell.Tab.0.center/2560.39.1200.1920/0.23.2560.1362/-1680.23.1680.1027@2560.39.1200.1920" timestamp="1591963557138" />
+    <state width="1158" height="348" key="GridCell.Tab.0.center/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591781038245" />
+    <state width="1158" height="348" key="GridCell.Tab.0.center/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591681898574" />
+    <state width="1158" height="348" key="GridCell.Tab.0.center/2560.62.1200.1897/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591785441458" />
+    <state width="1158" height="497" key="GridCell.Tab.0.left" timestamp="1592899789622">
+      <screen x="2560" y="39" width="1200" height="1920" />
     </state>
     <state width="2518" height="285" key="GridCell.Tab.0.left/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588850895465" />
     <state width="1878" height="285" key="GridCell.Tab.0.left/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151007" />
-    <state width="1158" height="349" key="GridCell.Tab.0.left/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591262592470" />
-    <state width="1158" height="360" key="GridCell.Tab.0.left/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591354148785" />
-    <state width="1158" height="360" key="GridCell.Tab.0.right" timestamp="1591354148786">
-      <screen x="2560" y="62" width="1200" height="1897" />
+    <state width="1158" height="497" key="GridCell.Tab.0.left/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1592899789622" />
+    <state width="1158" height="497" key="GridCell.Tab.0.left/2560.39.1200.1920/0.23.2560.1362/-1680.23.1680.1027@2560.39.1200.1920" timestamp="1591963557137" />
+    <state width="1158" height="348" key="GridCell.Tab.0.left/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591781038244" />
+    <state width="1158" height="348" key="GridCell.Tab.0.left/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591681898574" />
+    <state width="1158" height="348" key="GridCell.Tab.0.left/2560.62.1200.1897/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591785441458" />
+    <state width="1158" height="497" key="GridCell.Tab.0.right" timestamp="1592899789624">
+      <screen x="2560" y="39" width="1200" height="1920" />
     </state>
     <state width="2518" height="285" key="GridCell.Tab.0.right/2560.0.1920.1200/0.0.2560.1440/-1680.0.1680.1050@0.0.2560.1440" timestamp="1588850895467" />
     <state width="1878" height="285" key="GridCell.Tab.0.right/2560.23.1920.1177/0.23.2560.1362/-1680.23.1680.1027@0.23.2560.1362" timestamp="1588734151007" />
-    <state width="1158" height="349" key="GridCell.Tab.0.right/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591262592471" />
-    <state width="1158" height="360" key="GridCell.Tab.0.right/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591354148786" />
+    <state width="1158" height="497" key="GridCell.Tab.0.right/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1592899789624" />
+    <state width="1158" height="497" key="GridCell.Tab.0.right/2560.39.1200.1920/0.23.2560.1362/-1680.23.1680.1027@2560.39.1200.1920" timestamp="1591963557139" />
+    <state width="1158" height="348" key="GridCell.Tab.0.right/2560.62.1200.1842/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1842" timestamp="1591781038246" />
+    <state width="1158" height="348" key="GridCell.Tab.0.right/2560.62.1200.1897/0.23.2560.1362/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591681898574" />
+    <state width="1158" height="348" key="GridCell.Tab.0.right/2560.62.1200.1897/0.23.2560.1417/-1680.23.1680.1027@2560.62.1200.1897" timestamp="1591785441459" />
+    <state width="1158" height="706" key="GridCell.Tab.1.bottom" timestamp="1591868864232">
+      <screen x="2560" y="39" width="1200" height="1920" />
+    </state>
+    <state width="1158" height="706" key="GridCell.Tab.1.bottom/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1591868864232" />
+    <state width="1158" height="706" key="GridCell.Tab.1.center" timestamp="1591868864231">
+      <screen x="2560" y="39" width="1200" height="1920" />
+    </state>
+    <state width="1158" height="706" key="GridCell.Tab.1.center/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1591868864231" />
+    <state width="1158" height="706" key="GridCell.Tab.1.left" timestamp="1591868864230">
+      <screen x="2560" y="39" width="1200" height="1920" />
+    </state>
+    <state width="1158" height="706" key="GridCell.Tab.1.left/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1591868864230" />
+    <state width="1158" height="706" key="GridCell.Tab.1.right" timestamp="1591868864231">
+      <screen x="2560" y="39" width="1200" height="1920" />
+    </state>
+    <state width="1158" height="706" key="GridCell.Tab.1.right/2560.39.1200.1920/0.0.2560.1440/-1680.0.1680.1050@2560.39.1200.1920" timestamp="1591868864231" />
     <state x="2640" y="550" key="SettingsEditor" timestamp="1591251636903">
       <screen x="2560" y="62" width="1200" height="1842" />
     </state>
