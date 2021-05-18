@@ -19,7 +19,7 @@ func (ThinGirl) weight() {
 	fmt.Println("45kg")
 }
 
-// 简单工厂
+// GirlFactory 简单工厂
 type GirlFactory struct{}
 
 func (*GirlFactory) CreateGirl(like string) gril {
